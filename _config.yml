@@ -1,0 +1,14 @@
+permalink: /:title
+
+# Meta
+title:                  Sarina Canelake
+tagline:                Sarina Canelake's internet home
+url:                    http://canelake.com
+baseurl:                /
+author:
+  name:                 Sarina Canelake
+  url:                  https://twitter.com/robotsari
+  email:                robotsari@gmail.com
+
+# Custom vars
+resume:                  /resume/resume--sarina-canelake--2015.pdf
