@@ -3,6 +3,7 @@ permalink: /:title
 # Meta
 title:                  Sarina Canelake
 tagline:                Sarina Canelake's internet home
+aboutme:                Product Manager + Software Engineer
 url:                    http://canelake.com
 baseurl:                /
 author:
@@ -11,4 +12,4 @@ author:
   email:                robotsari@gmail.com
 
 # Custom vars
-resume:                  /resume/resume--sarina-canelake--2015.pdf
+resume:                  resume/resume--sarina-canelake--2015.pdf
