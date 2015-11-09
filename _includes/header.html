@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Sarina Canelake's internet home</title>
+  <title>{{ site.aboutme }}</title>
 
   <meta name="description" content="{{ site.tagline }}">
 
@@ -26,9 +26,7 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<header class="header--site">
-  <h1 class="header-title">
-    <span class="header-title">{{ site.title }}</span>
-  </h1>
-  <p class="header-tagline">{{ site.tagline }}</p>
+<header class="header-site">
+  <p><span class="header-title">{{ site.title }}</span></p>
+  <p><span class="header-about">{{ site.aboutme }}</span></p>
 </header>

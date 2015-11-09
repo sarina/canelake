@@ -1,13 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400);
 
+/* header */
+.header-site {
+  text-align: center;
+  line-height: 1;
+  background: #e6e8e7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.header-title {
+  border-bottom: 1px solid black;
+  font-size: 5em;
+}
+
+.header-about {
+  font-size: 2.25em;
+}
+
+/* Content */
 /*TODOs:
  - Add styling for links (visited and unvisited)
  - Accessibility
 */
-
 html, body {
   height: 100%;
-  background: #8daad5;
+  background: #3fb2d1;
+  max-width: 100%;
+  margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
