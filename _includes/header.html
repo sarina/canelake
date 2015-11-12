@@ -5,6 +5,7 @@
 
   <meta name="description" content="{{ site.tagline }}">
 
+  <link rel="stylesheet" href="{{ site.baseurl }}css/normalize.css">
   <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
 
   <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}favicons/apple-icon-57x57.png">
@@ -26,7 +27,9 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<header class="header-site">
-  <p><span class="header-title">{{ site.title }}</span></p>
-  <p><span class="header-about">{{ site.aboutme }}</span></p>
-</header>
+<div class="header-wrapper">
+  <header class="header-site">
+    <h1 class="clearfix"><span class="header-title">{{ site.title }}</span></h1>
+    <h2 class="clearfix"><span class="header-about">{{ site.aboutme }}</span></h2>
+  </header>
+</div>
