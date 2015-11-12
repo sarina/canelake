@@ -63,12 +63,25 @@ h1.clearfix, h2.clearfix {
   margin: 50px;
 }
 
-.footer-copyleft {
-  font-size: 0.875em;
+/* Footer */
+.footer-wrapper {
+  max-width: 100%;
+  padding: 10px;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.footer-site {
+  line-height: 1;
 }
 
 .bonus {
   font-size: 0.5em;
   float: right;
   color: #800000;
+}
+
+.footer-copyleft {
+  float: left;
+  font-size: 0.875em;
 }
