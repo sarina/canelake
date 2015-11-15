@@ -2,7 +2,13 @@
 layout: default
 title: Home
 ---
-  <div class="roadsign">
-    <p>This site is under construction!</p>
-    <p>In the meantime, why don't you check out some of Sarina's <a href="https://github.com/sarina">coding work</a> or her <a href="{{ site.resume }}">resume</a>?</p>
+  <div class="nav">
+    {% for post in site.posts %}
+    <h2>{{ post.title }}</h2>
+    {% endfor %}
   </div>
+
+  <div class="section-content">
+    <p>Content needs to go here</p>
+  </div>
+

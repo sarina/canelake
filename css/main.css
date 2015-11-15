@@ -55,12 +55,35 @@ h1.clearfix, h2.clearfix {
   font-weight: 100;
 }
 
-/* Content */
+/* Main content */
+.content-main {
+  max-width: 100%;
+  padding: 10px;
+  border: 0;
+  margin: 30px;
+  overflow: auto;
+  vertical-align: baseline;
+}
+
+.nav {
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+}
+
+.section-content {
+  width: 65%;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
 .roadsign {
-  border: 2px solid #fff7cb;
+  border: 2px solid #e6e8e7;
   text-align: center;
   font-size: 1.125em;
-  margin: 50px;
+  margin: 10px;
 }
 
 /* Footer */
