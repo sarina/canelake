@@ -65,7 +65,7 @@ h1.clearfix, h2.clearfix {
   vertical-align: baseline;
 }
 
-.nav {
+.site-nav {
   width: 25%;
   margin: 10px;
   padding: 10px;
@@ -91,7 +91,9 @@ h1.clearfix, h2.clearfix {
   max-width: 100%;
   padding: 10px;
   border: 0;
-  margin-bottom: 30px;
+  margin: 30px;
+  overflow: auto;
+  vertical-align: baseline;
 }
 
 .footer-site {
