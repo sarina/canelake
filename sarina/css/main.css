@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400);
+
+/* base */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+pp, ol, ul, li, dt, dd, blockquote {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+html, body {
+  height: 100%;
+  background: #3fb2d1;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* header */
+.header-wrapper {
+  background: #e6e8e7;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px 25%;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.header-site {
+  text-align: center;
+  line-height: 1;
+  max-width: 900px;
+}
+
+h1.clearfix, h2.clearfix {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.header-title {
+  font-size: 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  border-bottom: 1px solid black;
+}
+
+.header-about {
+  font-size: 2.25em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+/* Content */
+.roadsign {
+  border: 2px solid #fff7cb;
+  text-align: center;
+  font-size: 1.125em;
+  margin: 50px;
+}
+
+/* Footer */
+.footer-wrapper {
+  max-width: 100%;
+  padding: 10px;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.footer-site {
+  line-height: 1;
+}
+
+.bonus {
+  font-size: 0.5em;
+  float: right;
+  color: #800000;
+}
+
+.footer-copyleft {
+  float: left;
+  font-size: 0.875em;
+}

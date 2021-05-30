@@ -1,0 +1,15 @@
+permalink: /:title
+
+# Meta
+title:                  Sarina Canelake
+tagline:                Sarina Canelake's internet home
+aboutme:                Product Manager + Software Engineer
+url:                    http://canelake.com
+baseurl:                /
+author:
+  name:                 Sarina Canelake
+  url:                  https://twitter.com/robotsari
+  email:                robotsari@gmail.com
+
+# Custom vars
+resume:                  resume/resume--sarina-canelake-2020.pdf
