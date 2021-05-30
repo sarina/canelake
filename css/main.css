@@ -73,6 +73,11 @@ h1.clearfix, h2.clearfix {
     margin: 50px;
 }
 
+.align-image { 
+    display: flex;
+    align-items:center;
+}
+
 /* Footer */
 .footer-wrapper {
   max-width: 100%;
