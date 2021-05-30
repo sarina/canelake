@@ -18,6 +18,10 @@ html, body {
   margin: auto;
 }
 
+a {
+    color: #F6D908;
+}
+
 /* header */
 .header-wrapper {
   background: #e6e8e7;
