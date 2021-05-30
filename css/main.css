@@ -67,6 +67,12 @@ h1.clearfix, h2.clearfix {
   margin: 50px;
 }
 
+.content-body {
+    text-align: center;
+    font-size: 1.125em;
+    margin: 50px;
+}
+
 /* Footer */
 .footer-wrapper {
   max-width: 100%;
